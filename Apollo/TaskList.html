@@ -1,0 +1,131 @@
+<!-- Authors:
+================================
+Fadi Masannat and Zachary Ahmad
+================================
+Task List Inner Page-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+
+  <title>Apollo Task List</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--External stylesheet for more customization -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./assets/css/style.css" rel="stylesheet">
+
+  <!--Embedded Stylesheet for Task List-->
+
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="./TaskList.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-transparent">
+    <div class="container d-flex align-items-center justify-content-between position-relative">
+
+      <div class="logo">
+        <h1 class="text-light"><a href="index.html"><span>Apollo</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto " href="./index.html#hero">Home</a></li>
+          <li><a class="nav-link scrollto " href="TaskList.html">Task-List</a></li>
+          <li class="dropdown"><a href="./index.html#services"><span>Focus Timer</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <!-- <li><a href="#">Drop Down 1</a></li> -->
+              <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Workspace 1</a></li>
+                  <li><a href="#">Workspace 2</a></li>
+                  <li><a href="#">Workspace 3</a></li>
+                  
+                </ul>
+              </li> -->
+              <li><a href="./ClassicTimer.html">Classic Timer</a></li>
+              <li><a href="ArcticNeonTimer.html">Arctic Neon</a></li>
+              <li><a href="./comingSoon.html">Custom</a></li>
+            </ul>
+          </li>
+          <!-- <li><a class="nav-link scrollto" href="#services">Services</a></li> -->
+          <li><a class="nav-link scrollto" href="Backgrounds.html">Backgrounds</a></li>
+          <li><a class="nav-link scrollto" href="./Music.html">Music</a></li>
+          <li><a class="nav-link scrollto" href="./index.html#team">About</a></li>
+
+
+          <li><a class="nav-link scrollto" href="./index.html#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+  <section >
+
+    <body>
+      <div class="todo-app">
+        <form class="input-section">
+          <input id="todoInput" type="text" placeholder="Add item..." />
+          <button id="addBtn" type="submit" class="add">Add</button>
+          <button type="button" class="add" id="update-button" style="display: none">
+            Update
+          </button>
+          <input type="text" id="search-input" placeholder="Search" />
+          <button type="button" id="search-button">Search</button>
+          
+        </form>
+        <div class="todos">
+          <ul class="todo-list">
+            <!-- <li class="li">
+            <input class="form-check-input" type="checkbox" value="option1">
+            <label class="form-check-label" for="inlineCheckbox1"></label>
+            <span class="todo-text">text</span>
+            <span class="todo-text">date</span>
+            <span class="span-button"><i class="fa-solid fa-trash"></i></span>
+            <span class="span-button"><i class="fa-solid fa-pen"></i></span>
+          </li> -->
+          </ul>
+          <!--       
+          <img class="face" src="asetes/thinking.png" alt="">
+          <h1 class="not-found"> NOT FOUND</h1> -->
+        </div>
+      </div>
+    </body>
+  </section>
+
+
+
+  <script src="./TaskList.js"></script>
+
+
+
+</body>
+
+</html>
